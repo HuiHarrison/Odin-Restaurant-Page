@@ -7,6 +7,6 @@ p {
     font-size: 2rem;
 }
 
-img {
+img#hero-image {
     height: 50vh;
 }

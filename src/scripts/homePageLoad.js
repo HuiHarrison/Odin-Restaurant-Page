@@ -1,4 +1,4 @@
-import '../css/homePageStyle.css'
+import '../css/homePageStyle.css';
 import Icon from '../img/home/homePageImage.png';
 
 
@@ -15,6 +15,7 @@ export default function homePageLoad() {
     // Add image
     const myIcon = new Image();
     myIcon.src = Icon;
+    myIcon.setAttribute("id","hero-image");
 
     contentDiv.append(h1, p, myIcon);
 };
