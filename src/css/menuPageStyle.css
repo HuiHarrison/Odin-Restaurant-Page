@@ -1,0 +1,28 @@
+img {
+    height: 80vh;
+    width: 60vw;
+    object-fit: cover;
+    object-position: center;
+}
+
+h1 {
+    font-size: 5rem;
+    margin: 0;
+}
+
+p {
+    font-size: 2rem;
+    margin-top: 0;
+}
+
+#content * {
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+  }
+
+  li {
+    margin-bottom: 5rem;
+  }

@@ -1,5 +1,5 @@
 import '../css/homePageStyle.css'
-import Icon from '../img/homePageImage.png';
+import Icon from '../img/home/homePageImage.png';
 
 
 export default function homePageLoad() {
