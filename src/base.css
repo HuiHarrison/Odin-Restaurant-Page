@@ -1,0 +1,46 @@
+:root {
+    --font-colour: #EEEEEE;
+    --primary-background-colour: #222831;
+    --secondary-background-colour: #4f535b;
+    --brand-colour: #76ABAE;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    align-items: center;
+    background-color: var(--primary-background-colour);
+    color: var(--font-colour);
+    font-size: 1.2rem;
+}
+
+header {
+    padding-right: 2rem;
+    padding-top: 1.5rem;
+    width: 100%;
+}
+
+nav {
+    display: grid;
+    grid-auto-flow: column;
+    gap: 1rem;
+    justify-content: end;
+    margin-right: 1rem;
+}
+
+nav button {
+    padding: 1rem 3rem;
+    background-color: var(--secondary-background-colour);
+    border: none;
+    border-radius: 12px;
+    color: var(--font-colour);
+    cursor: pointer;
+}
+
+#content {
+    flex: 1;
+    display: grid;
+    align-content: center;
+    justify-items: center;
+}
