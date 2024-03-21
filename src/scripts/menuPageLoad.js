@@ -6,6 +6,7 @@ import Burrito from '../img/menu/burrito.png';
 export default function menuPageLoad() {
     const contentDiv = document.querySelector("#content");
     contentDiv.innerHTML = "";
+    contentDiv.style["align-content"] = "flex-start";
 
     const h2 = document.createElement("h2");
     h2.textContent = "Menu";

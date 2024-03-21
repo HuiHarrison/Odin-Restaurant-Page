@@ -41,6 +41,6 @@ nav button {
 #content {
     flex: 1;
     display: grid;
-    align-content: center;
     justify-items: center;
+    align-items: baseline;
 }

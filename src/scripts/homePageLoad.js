@@ -5,6 +5,7 @@ import Icon from '../img/home/homePageImage.png';
 export default function homePageLoad() {
     const contentDiv = document.querySelector("#content");
     contentDiv.innerHTML = "";
+    contentDiv.style["align-content"] = "center";
 
     const h1 = document.createElement("h1");
     h1.textContent = "Struggle Meals";
