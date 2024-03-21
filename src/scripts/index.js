@@ -1,5 +1,5 @@
 import 'normalize.css'
-import './base.css';
+import '../css/base.css';
 import homePageLoad from "./homePageLoad";
 import menuPageLoad from "./menuPageLoad";
 import aboutPageLoad from "./aboutPageLoad";

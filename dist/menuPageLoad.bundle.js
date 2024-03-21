@@ -10,13 +10,13 @@
 /******/ 	"use strict";
 /******/ 	var __webpack_modules__ = ({
 
-/***/ "./src/menuPageLoad.js":
-/*!*****************************!*\
-  !*** ./src/menuPageLoad.js ***!
-  \*****************************/
+/***/ "./src/scripts/menuPageLoad.js":
+/*!*************************************!*\
+  !*** ./src/scripts/menuPageLoad.js ***!
+  \*************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (/* binding */ menuPageLoad)\n/* harmony export */ });\nfunction menuPageLoad() {\n\n};\n\n//# sourceURL=webpack://odin-restaurant-page/./src/menuPageLoad.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (/* binding */ menuPageLoad)\n/* harmony export */ });\nfunction menuPageLoad() {\n\n};\n\n//# sourceURL=webpack://odin-restaurant-page/./src/scripts/menuPageLoad.js?");
 
 /***/ })
 
@@ -60,7 +60,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 /******/ 	// Load entry module and return exports
 /******/ 	// This entry module can't be inlined because the eval devtool is used.
 /******/ 	var __webpack_exports__ = {};
-/******/ 	__webpack_modules__["./src/menuPageLoad.js"](0, __webpack_exports__, __webpack_require__);
+/******/ 	__webpack_modules__["./src/scripts/menuPageLoad.js"](0, __webpack_exports__, __webpack_require__);
 /******/ 	
 /******/ })()
 ;

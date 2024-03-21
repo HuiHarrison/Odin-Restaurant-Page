@@ -3,10 +3,10 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
 
 module.exports = {
   entry: {
-    index: './src/index.js',
-    homePageLoad: './src/homePageLoad.js',
-    menuPageLoad: './src/menuPageLoad.js',
-    aboutPageLoad: './src/aboutPageLoad.js',
+    index: './src/scripts/index.js',
+    homePageLoad: './src/scripts/homePageLoad.js',
+    menuPageLoad: './src/scripts/menuPageLoad.js',
+    aboutPageLoad: './src/scripts/aboutPageLoad.js',
   },
   mode: 'development',
   plugins: [
